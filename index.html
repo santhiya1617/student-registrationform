@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student-registration form</title>
+</head>
+<body>
+    <h1>student-registration</h1>
+    <p>"please fill out the form below to register as a student"</p>
+    <form action="response.html"method="GET">
+        <div>
+            <label for="fullname">fullname</label>
+            <input name="fullname" type="text" id="fullname">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="san@email.com">
+        </div>
+        <div>
+            <label for="date">Date of birth</label>
+            <input type="date" name="dob" id="date">
+        </div>
+        <div>
+            <label for="phonenumber">phonenumber</label>
+            <input type="phonenumber" name="age" id="phonenumber">
+        </div>
+        <div>
+            <h1>Gender</h1>
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="gender" value="male">
+            
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="gender" value="female">
+
+            <label for="other">other</label>
+            <input type="radio" name="gender" id="gender" value="other">
+        </div>
+        <div>
+            <h2>courses interested</h2>
+            <label for="html">html</label>
+            <input type="checkbox" name="html" id="html">
+
+            <label for="css">css</label>
+            <input type="checkbox" name="css" id="css">
+
+            <label for="javaScript">javaScript</label>
+            <input type="checkbox" name="javaScript" id="javaScript">
+
+            <label for="python">python</label>
+            <input type="checkbox" name="python" id="python">
+         </div>
+         <div>
+            <label for="comments">Comments</label>
+            <textarea name="comments" id="comments"></textarea>
+         </div>
+         <button type="submit">Submit</button>
+        </form>
+        <br><br>
+        <table border="1">
+            <thead>
+                <tr> 
+                <td>student id</td>
+                <td>full name</td>
+                <td>email</td>
+                <td>date of birth</td>
+                <td>phone number</td>
+                <td>gender</td>
+                <td>courses interested</td>
+            </tr>
+         </thead>
+         <tr>
+            <td>1</td>
+            <td>swetha</td>
+            <td>swe@gmail.com</td>
+            <td>29.3.2000</td>
+            <td>9876543210</td>
+            <td>female</td>
+            <td>css</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>siva</td>
+                <td>siva@gmail.com</td>
+                <td>13.6.2001</td>
+                <td>9870983210</td>
+                <td>male</td>
+                <td>python</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>akshaya</td>
+                <td>ak@gmail.com</td>
+                <td>16.5.2001</td>
+                <td>9123983210</td>
+                <td>female</td>
+                <td>javaScript</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>vijay</td>
+                <td>vj@gmail.com</td>
+                <td>22.6.2000</td>
+                <td>9870934510</td>
+                <td>male</td>
+                <td>html</td>
+            </tr>
+         </body>
+</html>
